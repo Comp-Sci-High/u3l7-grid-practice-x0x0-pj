@@ -7,20 +7,22 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <!-- Link Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   
 </head>
 
 <body>
+
   <nav class="navbar bg-body-tertiary">
-    <div class="container">
       <a class="navbar-brand" href="#">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" alt="Nike" height="24">
       </a>
     </div>
   </nav>
-
-  <div id="carouselExample" class="carousel slide">
+ <div class="container">
+  <div class="row">
+  <div id="carouselExample" class="carousel slide col-8">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/running.png" class="d-block w-100" alt="Runner">
@@ -41,8 +43,9 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  
 
-  <div class="accordion" id="accordionExample">
+  <div class="accordion col-4" id="accordionExample">
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -55,6 +58,7 @@
         </div>
       </div>
     </div>
+  </div>
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -79,11 +83,11 @@
         </div>
       </div>
     </div>
-  </div>
+  
 
   <h1>Shop Shoes</h1>
-
-  <div class="card">
+<div class="container"></div>
+  <div class="card col-3">
     <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31b6d072-9844-4553-bd5d-92beed6038e1/air-jordan-1-retro-high-og-yellow-ochre-mens-shoes-JHpxkn.png" class="card-img-top" alt="Nike sneaker">
     <div class="card-body">
       <h5 class="card-title">Air Jordan 1 Retro High OG "Yellow Ochre"</h5>
@@ -91,7 +95,7 @@
       <h5 class="card-title">$180</h5>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-3">
     <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b9b91d8c-70b9-4461-8107-e656b41f1633/air-max-90-gore-tex-mens-shoes-cZwz8t.png" class="card-img-top" alt="Nike sneaker">
     <div class="card-body">
       <h5 class="card-title">Nike Air Max 90 GORE-TEX</h5>
@@ -99,7 +103,7 @@
       <h5 class="card-title">$160</h5>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-3">
     <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a3f025d3-577e-4f52-8408-1f14a0303fe9/air-jordan-1-element-shoes-NFCNts.png" class="card-img-top" alt="Nike sneaker">
     <div class="card-body">
       <h5 class="card-title">Air Jordan 1 Element</h5>
@@ -107,7 +111,7 @@
       <h5 class="card-title">$200</h5>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-3">
     <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u6w7hqga4172ieosf48b/air-vapormax-plus-mens-shoes-nC0dzF.png" class="card-img-top" alt="Nike sneaker">
     <div class="card-body">
       <h5 class="card-title">Nike Air VaporMax Plus</h5>
@@ -117,7 +121,8 @@
   </div>
 
   <!-- Link Bootstrap JS -->
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
